@@ -1,7 +1,8 @@
 @import url('https://fonts.cdnfonts.com/css/ozda');
-@import url('https://fonts.cdnfonts.com/css/toyota-mr2');
+@import url('https://fonts.cdnfonts.com/css/dotboundary-fixed');
+@import url('https://fonts.cdnfonts.com/css/cloud-2');
 body {
-    padding-top: 120px;
+    padding-top: 170px;
     background-color:#F2E3DB;
 }
 #topicos {
@@ -13,8 +14,7 @@ body {
     position: fixed;
     padding-top: 20px ;
 }
-
-.top{
+a{
     text-decoration: none;
     padding-left: 90px;
 
@@ -23,26 +23,127 @@ body {
     color: black;
     font-family: 'Ozda', sans-serif;
 }
-h1{
-    color: black;
-    font-family: 'Ozda', sans-serif;                                                
+h2{    
+    font-family: 'Cloud', sans-serif;
 }
-table{
-    font-family: 'Toyota MR2', sans-serif;
+h1{
+    font-family: 'Ozda', sans-serif;
+}
+form{
+    font-family: 'Cloud', sans-serif;
                                                 
 }
-label{
-    font-family: 'Toyota MR2', sans-serif;                               
+
+  
+.heading {
+    font-family: 'Pacifico', cursive;
+    margin: 35px auto 20px;
 }
-#cad{
-    font-family: 'Toyota MR2', sans-serif;
- text-decoration: none;     
- border-left: 100px;                                       
+  
+hr {
+    border-top: 2px solid black;
+    width: 40%;
+    margin-bottom: 55px;
 }
-h2{
-    color: black;
-    font-family: 'Ozda', sans-serif;                                                
+  
+.main {
+    width: 50vw;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+  
+label {
+    font-size: 20px;
+}
+  
+.btn {
+    width: 200px;
+}
+  
+#finalAmount {
+    font-family: 'Lobster', cursive;
+    display: none;
+    margin: 50px auto;
+}
+  
+#finalAmount h2 {
+    font-size: 50px;
+}
+  
+.finalValue {
+    font-family: 'Amiri', serif;
+}
+  
+@media (max-width: 768px) {
+    hr {
+        width: 60%;
+    }
+    .main {
+        width: 100%;
+    }
+}
+  
+@media (max-width: 400px) {
+    .heading {
+        font-size: 60px;
+    }
+    hr {
+        width: 75%;
+    }
+    #finalAmount h2, .finalValue {
+        font-size: 40px;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
 
+.produtos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px auto;
+}
 
+.produto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    margin-top:150px;
+}
+
+.produto img {
+    max-width: 100%;
+}
+
+.produto h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.produto p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.quantidade {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+}
